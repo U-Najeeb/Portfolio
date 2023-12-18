@@ -46,8 +46,6 @@ modeButtons.forEach((button) => {
 hamburger.addEventListener("click", (e) => {
     e.preventDefault()
     sideBar.classList.toggle('hidden')
-    sideBar.offsetHeight
-    sideBar.style.transition = "all 0.3s ease-in-out"
 })
 contactRow.addEventListener("click",(e)=>{
     e.preventDefault()
